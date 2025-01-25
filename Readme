@@ -1,0 +1,84 @@
+# Currency Converter Web Application
+
+## Overview
+This is a simple, responsive currency converter web application. It allows users to convert amounts between different currencies using real-time exchange rates fetched from an API.
+
+## Features
+- **Real-time Exchange Rates**: Fetches live currency rates using the [Free Currency API](https://freecurrencyapi.com/).
+- **Dynamic Dropdowns**: Automatically populates currency codes from a predefined list.
+- **Country Flags**: Displays flags corresponding to selected currencies.
+- **Responsive Design**: Optimized for desktop and mobile devices.
+
+## Technologies Used
+- **HTML**: Structure of the web page.
+- **CSS**: Styling and layout.
+- **JavaScript**: Logic and API integration.
+
+## Files Structure
+```
+/currency-converter
+├── index.html          # Main HTML file
+├── style.css           # Stylesheet for the application
+├── app.js              # Main JavaScript file
+├── codes.js            # Contains country-to-currency mapping
+└── README.md           # Documentation (this file)
+```
+
+## How to Run Locally
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-repo/currency-converter.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd currency-converter
+   ```
+3. Open `index.html` in your browser to run the application.
+
+## Deployment
+You can deploy this application on any static hosting platform like:
+- **GitHub Pages**
+- **Netlify**
+- **Vercel**
+
+### Steps for Deployment
+1. Upload all files to your hosting platform.
+2. Configure environment variables for the API key (if supported).
+3. Access the live site using the provided URL.
+
+## Environment Variables
+To secure your API key:
+1. Create an `.env` file (if using a backend setup) and add:
+   ```env
+   API_KEY=your_api_key_here
+   ```
+2. For platforms like Netlify or Vercel, configure the key in the environment settings.
+
+## API Configuration
+This project uses the [Free Currency API](https://freecurrencyapi.com/) for fetching exchange rates. Ensure you:
+- Sign up and obtain your API key.
+- Replace the placeholder `API_KEY` in `app.js` with your actual API key.
+
+## Screenshots
+### Desktop View
+*Screenshot of the desktop layout here*
+
+### Mobile View
+*Screenshot of the mobile layout here*
+
+## Contributing
+Feel free to contribute by:
+- Reporting bugs.
+- Suggesting improvements.
+- Submitting pull requests.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+---
+
+### Author
+*Your Name*
+
+For any inquiries, please contact [your-email@example.com](mailto:your-email@example.com).
+
