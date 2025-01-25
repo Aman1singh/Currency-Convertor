@@ -27,7 +27,7 @@ This is a simple, responsive currency converter web application. It allows users
 ## How to Run Locally
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-repo/currency-converter.git
+   git clone https://github.com/Aman1Singh/currency-converter.git
    ```
 2. Navigate to the project directory:
    ```bash
